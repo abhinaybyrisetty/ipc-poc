@@ -5,7 +5,7 @@ Micro Services to monitor device registrations and notify the changes
 `git clone https://github.com/abhinaybyrisetty/ipc-poc.git`
 
 ## Run the notifications service first in a separate tab using below command
-`python notify.py`
+`python notifier.py`
 
 ## Run monitoring service using below command
 `python monitor.py`
