@@ -52,6 +52,7 @@ if __name__ == '__main__':
       new = js.load(changed)
     reset_flag = 0
     reset_flag = identify_changes(old,new,reset_flag)
+    # Consider updated file as the new reference file
     if reset_flag == 1:
       oldfile = open(file_to_monitor,'rb')
       old = js.load(oldfile)
